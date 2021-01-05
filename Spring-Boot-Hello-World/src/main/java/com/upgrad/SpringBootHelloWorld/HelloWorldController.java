@@ -14,6 +14,6 @@ public class HelloWorldController {
     //@RequestMapping maps the uri "/hello" to the hello() method
     @RequestMapping("/hello")
     public String random(){
-        return "Hello and welcome to your first web project using Spring Boot";
+        return "Hello and welcome to your first web project using Spring Boot.";
     }
 }
